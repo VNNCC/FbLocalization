@@ -1,0 +1,29 @@
+﻿<ctrl:CustomWindow
+    x:Class="FbLocalization.Windows.EditEntryWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ctrl="clr-namespace:FbLocalization.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:FbLocalization.Windows"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="EditEntryWindow"
+    Width="800"
+    Height="450"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TextBlock Foreground="{DynamicResource HighlightedTextBrush}" Text="All changes will automatically be saved." />
+
+        <TextBox
+            Grid.Row="1"
+            Margin="0,4,0,0"
+            AcceptsReturn="True"
+            AcceptsTab="True"
+            Text="{Binding Value, UpdateSourceTrigger=PropertyChanged}" />
+    </Grid>
+</ctrl:CustomWindow>
