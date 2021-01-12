@@ -30,6 +30,10 @@
                     There might be some issues with different encodings.<LineBreak />
                     Tips:<LineBreak />
                     - Double/right click an item to edit its value</TextBlock>
+
+                <LineBreak />
+                <LineBreak />
+                <Hyperlink NavigateUri="https://www.github.com/VNNCC/FbLocalization" RequestNavigate="Hyperlink_RequestNavigate">More on Github</Hyperlink>
             </TextBlock>
         </Border>
 
