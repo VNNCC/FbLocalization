@@ -4,6 +4,8 @@ FbLocalization is an application to view and edit localization binary chunk file
 
 This will provide only the base functionality for reading and writing the modified binary chunk. A better way would be to include the histogram chunk and proper encoding support, but for this demo project it's enough for now.
 
+This may or may not work with latest Frostbite games.
+
 # Features
 - View and Edit localization entries
 - Export localization entries as binary chunk file or CSV
