@@ -52,4 +52,5 @@ Depending on the compilation mode:
 
 
 # License
+
 This project is licensed under the [MIT license](LICENSE).
